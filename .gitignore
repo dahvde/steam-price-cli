@@ -1,0 +1,6 @@
+/target
+Cargo.lock
+items.txt
+config.toml
+\\
+.gitconfig
