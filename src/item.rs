@@ -18,7 +18,7 @@ impl Item {
                     .push_str(string["median_price"]
                     .as_str()
                     .expect("String appending error")),
-            Err(err) => eprintln!("Err: {}", err),
+            Err(e) => eprintln!("Problem fetching website. More Information: {}", e),
         };
        
         // Convert price to f32
