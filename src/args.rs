@@ -13,7 +13,7 @@ pub struct CsgoItemArgs {
     #[arg(short, long, required = false)]
     pub output: Option<PathBuf>,
 
-    /// Disable table print
+    /// Print out in table
     #[arg(short, long, action)]
-    pub no_print: bool,
+    pub table: bool,
 }
